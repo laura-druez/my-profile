@@ -1,0 +1,108 @@
+/*Colors and fonts */
+
+body {
+	background-color: #e3e7d3 ;
+	color: #e6e49f;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+h1 {
+	color: #bdc2bf;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #bdc2bf;
+	font-size: 24px;
+	font-weight: 34px;
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+	color: #e6e49f;
+	font-weight: bolder;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+};
+}
+a:hover {
+	color: #e6e49f;
+}
+h3 {
+	color: black;
+	font-style: italic;
+}
+
+/* Custom design with class */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.btn-white{
+	background-color: #e6e49f;
+	color: black;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.img-circle{
+	border-radius: 200px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white{
+	background-color: grey;
+	padding: 40px;
+	box-shadow: 0px 8px 17px rgba(0, 0, 0, 1);
+	border-radius: 4px;
+	margin:  20px 0px;
+	text-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #bdc2bf;
+}
+.list-inline i:hover{
+	color: black;
+}
+
+/* Design adjustment */
+
+#introduction p {
+	margin-bottom:  40px;
+}
